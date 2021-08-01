@@ -51,7 +51,6 @@ body {
 }
 
 li{
-  padding-left: 2%;
   display:inline;
   padding: 50px;
   font-family: "Forum",serif;
@@ -73,6 +72,7 @@ a:visited{
 a:hover{
     background-color: #C7E3BD;
     text-decoration:underline;
+    padding-left: 2%;
 }
 
 #para2 {
