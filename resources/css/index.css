@@ -52,7 +52,8 @@ body {
 
 li{
   display:inline;
-  padding: 50px;
+  padding: 2%;
+  border-radius: 1em;
   font-family: "Forum",serif;
   letter-spacing: 2px;
 }
@@ -72,7 +73,13 @@ a:visited{
 a:hover{
     background-color: #C7E3BD;
     text-decoration:underline;
-    padding-left: 2%;
+    border-radius: 1em;
+}
+
+#emailCosmetics{
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 300;
+  text-decoration: underline;
 }
 
 #para2 {
@@ -114,8 +121,9 @@ a:hover{
 }
 
 #iconpad{
-  padding-left: 2%;
+  padding-right: 2%;
 }
+
 
 #flowerphoto{
   transform: rotate(200deg);
@@ -173,6 +181,7 @@ a:hover{
 	background-color: rgba(black, .03);
 	border-radius: 1em;
 	box-shadow: inset 0 2px 4px rgba(black, .05);
+  padding-right: 2%;
 }
 
 code {
