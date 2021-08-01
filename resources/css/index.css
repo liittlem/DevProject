@@ -51,6 +51,7 @@ body {
 }
 
 li{
+  padding-left: 2%;
   display:inline;
   padding: 50px;
   font-family: "Forum",serif;
