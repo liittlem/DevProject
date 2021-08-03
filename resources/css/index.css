@@ -1,9 +1,10 @@
-body {
-  background-color: #F6F6F6 /*papayawhip*/;
-  overflow: hidden;
+
+#homepagebody{
+    background-color: #F6F6F6 /*papayawhip*/;
+    overflow: hidden;
 }
 
-#blogbackground{
+#blogbody{
   background-color: #EDF5ED;
   overflow: scroll;
 }
