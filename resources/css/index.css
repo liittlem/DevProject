@@ -23,7 +23,18 @@
   }
 }
 
+/* /// 240 VIEWPORT /// */
 @media (min-width: 240px) {
+  /* nav bar*/
+  #navbartitle {
+    padding-right: 2%;
+  }
+
+  /* home page */
+  #homepagebody {
+    overflow-x: hidden;
+  }
+
   #nametitle {
     line-height: 1em;
     font-family: "Forum", serif;
@@ -34,6 +45,31 @@
     padding-right: 5%;
     margin-bottom: 3%;
   }
+
+  #para2 {
+    line-height: 1.5em;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 300;
+    padding-left: 5%;
+  }
+
+  #para2point5 {
+    line-height: 0.2em;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 300;
+    padding-left: 5%;
+  }
+
+  #para3 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: lighter;
+    width: 80%;
+    padding-left: 5%;
+    padding-top: 2%;
+    line-height: 1.7em;
+    letter-spacing: 1.5%;
+  }
+
   /*blog page*/
   #centeredtitle {
     text-align: center;
@@ -64,9 +100,21 @@
     text-align: justify;
     padding-left: 5%;
   }
+
+  /* icons */
+  #iconpad {
+    padding-right: 2%;
+    padding-bottom: 7%;
+    display: block;
+  }
 }
 
+/* /// 320 VIEWPORT /// */
 @media (min-width:320px) {
+  #homepagebody {
+    overflow-x: hidden;
+  }
+
   #nametitle {
     line-height: 1em;
     font-family: "Forum", serif;
@@ -77,6 +125,31 @@
     padding-right: 5%;
     margin-bottom: 3%;
   }
+
+  #para2 {
+    line-height: 1.5em;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 300;
+    padding-left: 5%;
+  }
+
+  #para2point5 {
+    line-height: 0.2em;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 300;
+    padding-left: 5%;
+  }
+
+  #para3 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: lighter;
+    width: 80%;
+    padding-left: 5%;
+    padding-top: 2%;
+    line-height: 1.7em;
+    letter-spacing: 1.5%;
+  }
+
   /*blog page*/
   #centeredtitle {
     text-align: center;
@@ -107,9 +180,31 @@
     text-align: justify;
     padding-left: 5%;
   }
+
+  /* icons */
+  #iconpad {
+    padding-right: 2%;
+    padding-bottom: 7%;
+    display: block;
+  }
 }
 
+/* /// 480 VIEWPORT /// */
+@media (min-width:480px) {
+  /* icons */
+  #iconpad {
+    padding-right: 2%;
+    display: inline;
+  }
+}
+
+
+/* /// 720 VIEWPORT /// */
 @media (min-width:720px) {
+  #homepagebody {
+    overflow-x: hidden;
+  }
+
   #nametitle {
     line-height: 1em;
     font-family: "Forum", serif;
@@ -119,6 +214,31 @@
     padding-left: 5%;
     margin-bottom: 3%;
   }
+
+  #para2 {
+    line-height: 1.5em;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 300;
+    padding-left: 5%;
+  }
+
+  #para2point5 {
+    line-height: 0.2em;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 300;
+    padding-left: 5%;
+  }
+
+  #para3 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: lighter;
+    width: 75%;
+    padding-left: 5%;
+    padding-top: 2%;
+    line-height: 1.7em;
+    letter-spacing: 1.5%;
+  }
+
   /*blog page*/
   #centeredtitle {
     text-align: center;
@@ -149,6 +269,12 @@
     text-align: justify;
     padding-left: 20%;
   }
+
+  /* icons */
+  #iconpad {
+    padding-right: 2%;
+    display: inline;
+  }
 }
 
 /**/
@@ -156,7 +282,6 @@
   background-color: #F6F6F6
     /*papayawhip*/
   ;
-  overflow: hidden;
 }
 
 #blogbody {
@@ -167,10 +292,6 @@
 /*NAV BAR CSS*/
 #centeredseperator {
   text-align: center;
-}
-
-#iconpad {
-  padding-right: 2%;
 }
 
 li {
@@ -203,30 +324,6 @@ a:hover {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 300;
   text-decoration: underline;
-}
-
-#para2 {
-  line-height: 1.5em;
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: 300;
-  padding-left: 5%;
-}
-
-#para2point5 {
-  line-height: 0.2em;
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: 300;
-  padding-left: 5%;
-}
-
-#para3 {
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: lighter;
-  width: 48%;
-  padding-left: 5%;
-  padding-top: 2%;
-  line-height: 1.7em;
-  letter-spacing: 1.5%;
 }
 
 #btn {
