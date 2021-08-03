@@ -5,6 +5,7 @@ body {
 
 #blogbackground{
   background-color: #EDF5ED;
+  overflow: scroll;
 }
 #nametitle {
   line-height: 0em;
