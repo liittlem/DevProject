@@ -206,7 +206,7 @@
   }
 
   #nametitle {
-    line-height: 1em;
+    line-height: 0em;
     font-family: "Forum", serif;
     font-size: 4rem;
     letter-spacing: -6px;
@@ -232,7 +232,7 @@
   #para3 {
     font-family: "Noto Sans JP", sans-serif;
     font-weight: lighter;
-    width: 75%;
+    width: 50%;
     padding-left: 5%;
     padding-top: 2%;
     line-height: 1.7em;
@@ -244,7 +244,7 @@
     text-align: center;
     line-height: 0em;
     font-family: "Forum", serif;
-    font-size: 4rem;
+    font-size: 6rem;
     letter-spacing: -6px;
     margin-bottom: 2%;
   }
@@ -256,10 +256,10 @@
 
   #blogentry {
     text-align: justify;
-    width: 60%;
+    width: 40%;
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 100;
-    padding-left: 20%;
+    padding-left: 28%;
   }
 
   #datestamp {
@@ -267,7 +267,7 @@
     font-weight: 100;
     color: #8F959E;
     text-align: justify;
-    padding-left: 20%;
+    padding-left: 28%;
   }
 
   /* icons */
