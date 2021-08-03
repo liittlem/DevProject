@@ -1,68 +1,183 @@
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  #primary {
+    width: 67%;
+  }
 
-#homepagebody{
-    background-color: #F6F6F6 /*papayawhip*/;
-    overflow: hidden;
+  #secondary {
+    width: 30%;
+    margin-left: 3%;
+  }
 }
 
-#blogbody{
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary {
+    width: 100%;
+  }
+
+  #secondary {
+    width: 40%;
+    margin: 0;
+    border: none;
+  }
+}
+
+@media (min-width: 240px) {
+  #nametitle {
+    line-height: 1em;
+    font-family: "Forum", serif;
+    font-size: 3.7rem;
+    letter-spacing: -4px;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 3%;
+  }
+  /*blog page*/
+  #centeredtitle {
+    text-align: center;
+    line-height: 0em;
+    font-family: "Forum", serif;
+    font-size: 3.7rem;
+    letter-spacing: -4px;
+    margin-bottom: 2%;
+  }
+
+  #blogentrytitle {
+    text-align: justify;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+
+  #blogentry {
+    text-align: justify;
+    width: 90%;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 100;
+    padding-left: 5%;
+  }
+
+  #datestamp {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 100;
+    color: #8F959E;
+    text-align: justify;
+    padding-left: 5%;
+  }
+}
+
+@media (min-width:320px) {
+  #nametitle {
+    line-height: 1em;
+    font-family: "Forum", serif;
+    font-size: 4rem;
+    letter-spacing: -6px;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 3%;
+  }
+  /*blog page*/
+  #centeredtitle {
+    text-align: center;
+    line-height: 0em;
+    font-family: "Forum", serif;
+    font-size: 4rem;
+    letter-spacing: -6px;
+    margin-bottom: 2%;
+  }
+
+  #blogentrytitle {
+    text-align: justify;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+
+  #blogentry {
+    text-align: justify;
+    width: 90%;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 100;
+    padding-left: 5%;
+  }
+
+  #datestamp {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 100;
+    color: #8F959E;
+    text-align: justify;
+    padding-left: 5%;
+  }
+}
+
+@media (min-width:720px) {
+  #nametitle {
+    line-height: 1em;
+    font-family: "Forum", serif;
+    font-size: 4rem;
+    letter-spacing: -6px;
+    padding-top: 10%;
+    padding-left: 5%;
+    margin-bottom: 3%;
+  }
+  /*blog page*/
+  #centeredtitle {
+    text-align: center;
+    line-height: 0em;
+    font-family: "Forum", serif;
+    font-size: 4rem;
+    letter-spacing: -6px;
+    margin-bottom: 2%;
+  }
+
+  #blogentrytitle {
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+
+  #blogentry {
+    text-align: justify;
+    width: 60%;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 100;
+    padding-left: 20%;
+  }
+
+  #datestamp {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 100;
+    color: #8F959E;
+    text-align: justify;
+    padding-left: 20%;
+  }
+}
+
+/**/
+#homepagebody {
+  background-color: #F6F6F6
+    /*papayawhip*/
+  ;
+  overflow: hidden;
+}
+
+#blogbody {
   background-color: #EDF5ED;
   overflow: scroll;
 }
 
 /*NAV BAR CSS*/
-#centeredseperator{
+#centeredseperator {
   text-align: center;
 }
-#iconpad{
+
+#iconpad {
   padding-right: 2%;
 }
 
-
-#nametitle {
-  line-height: 0em;
-  font-family: "Forum",serif;
-  font-size: 60px;
-  letter-spacing: -6px;
-  padding-top: 10%;
-  padding-left: 5%;
-  margin-bottom: 3%;
-}
-
-#centeredtitle {
-  text-align: center;
-  line-height: 0em;
-  font-family: "Forum",serif;
-  font-size: 100px;
-  letter-spacing: -6px;
-  margin-bottom: 3%;
-}
-
-#blogentrytitle{
-  text-align: center;
-  font-family: "Noto Sans JP", sans-serif;
-}
-
-#blogentry{
-  text-align: justify;
-  width: 40%;
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: 100;
-  padding-left: 29%;
-}
-
-#datestamp{
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: 100;
-  color: #8F959E;
-  text-align: justify;
-  padding-left: 29%;
-}
-
-li{
-  display:inline;
+li {
+  display: inline;
   padding: 2%;
   border-radius: 1em;
-  font-family: "Forum",serif;
+  font-family: "Forum", serif;
   letter-spacing: 2px;
 }
 
@@ -70,25 +185,24 @@ a {
   color: #284A57;
 }
 
-a:link{
+a:link {
   text-decoration: none;
 }
 
-a:visited{
+a:visited {
   text-decoration: none;
 }
 
-a:hover{
-    background-color: #C7E3BD;
-    text-decoration:underline;
-    border-radius: 1em;
+a:hover {
+  background-color: #C7E3BD;
+  text-decoration: underline;
+  border-radius: 1em;
 }
 
-#emailcosm{
+#emailcosm {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 300;
   text-decoration: underline;
-
 }
 
 #para2 {
@@ -115,8 +229,7 @@ a:hover{
   letter-spacing: 1.5%;
 }
 
-
-#btn{
+#btn {
   border: 1px solid black;
   padding: 7px;
   padding-left: 2%;
@@ -125,12 +238,11 @@ a:hover{
   background: #F6F6F6;
 }
 
-#ctadiv{
+#ctadiv {
   padding-left: 5%;
 }
 
-
-#flowerphoto{
+#flowerphoto {
   transform: rotate(200deg);
   position: absolute;
   right: 0px;
@@ -140,67 +252,74 @@ a:hover{
 
 /* hover for copy mail to clipboard */
 .mailto-link {
-	position: relative;
-	padding: 8px 0;
+  position: relative;
+  padding: 8px 0;
 }
+
 .mailto-message {
-	top: 1px;
-	left: 50%;
-	margin-bottom: -5px;
-	transform: translate(-50%, -100%);
-	position: absolute;
-	display: none;
-	width: auto;
-	white-space: nowrap;
-	font-size: 12px;
-	background-color: black;
-	color: white;
-	padding: 2px 6px;
-	border-radius: 2px;
-	&:after,
-	&:before {
-		content: '';
-	}
-	&:before {
-		top: 100%;
-		left: 50%;
-		border: solid transparent;
-		height: 0;
-		width: 0;
-		position: absolute;
-		pointer-events: none;
-		border-color: rgba(0, 0, 0, 0);
-		border-top-color: #000000;
-		border-width: 4px;
-		margin-left: -4px;
-	}
+  top: 1px;
+  left: 50%;
+  margin-bottom: -5px;
+  transform: translate(-50%, -100%);
+  position: absolute;
+  display: none;
+  width: auto;
+  white-space: nowrap;
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 2px;
+
+  &:after,
+  &:before {
+    content: '';
+  }
+
+  &:before {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(0, 0, 0, 0);
+    border-top-color: #000000;
+    border-width: 4px;
+    margin-left: -4px;
+  }
 }
+
 .mailto-link: hover .mailto-message,
 .mailto-link: focus .mailto-message,
 .mailto-link: focus-within .mailto-message {
-	display: block;
+  display: block;
 }
 
 /* styling below for fancy looks only */
 .well {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: lighter;
-	background-color: rgba(black, .03);
-	border-radius: 1em;
-	box-shadow: inset 0 2px 4px rgba(black, .05);
+  background-color: rgba(black, .03);
+  border-radius: 1em;
+  box-shadow: inset 0 2px 4px rgba(black, .05);
   padding-right: 2%;
 }
 
 code {
-	background-color: #e8f0e7;
-	padding: 3px 6px;
+  background-color: #e8f0e7;
+  padding: 3px 6px;
 }
+
 input {
-	padding: .6em 1.2em;
-	border: 0;
-	border-radius: 4px;
-	font-size: 1.3em;
-	text-align: center;
-	&:focus {
-		box-shadow: 0 0 3px 0 #b17b22;}
+  padding: .6em 1.2em;
+  border: 0;
+  border-radius: 4px;
+  font-size: 1.3em;
+  text-align: center;
+
+  &:focus {
+    box-shadow: 0 0 3px 0 #b17b22;
+  }
 }
