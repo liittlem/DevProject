@@ -104,7 +104,7 @@
   /* icons */
   #iconpad {
     padding-right: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 7%;
     display: block;
   }
 }
@@ -211,11 +211,6 @@
 
 /* /// 720 VIEWPORT /// */
 @media (min-width:720px) {
-  /* nav bar*/
-  #navbartitle {
-    padding-right: 2%;
-  }
-
   #homepagebody {
     overflow-x: hidden;
   }
@@ -225,7 +220,7 @@
     font-family: "Forum", serif;
     font-size: 4rem;
     letter-spacing: -6px;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-left: 5%;
     margin-bottom: 3%;
   }
@@ -288,7 +283,6 @@
   /* icons */
   #iconpad {
     padding-right: 2%;
-    padding-bottom: 7%;
     display: inline;
   }
 }
@@ -353,6 +347,7 @@ a:hover {
 
 #ctadiv {
   padding-left: 5%;
+  padding-bottom: 3%;
 }
 
 #flowerphoto {
